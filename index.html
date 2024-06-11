@@ -3,17 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>first</title>
+    <title>Portfolio/Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 align="center" ><u>HELLO</u></h1>
-    <label for="name">username:</label>
-    <input required type="text" name="username" id="name"><br>
-    <label for="id">password:</label>
-    <input required type="password" id="id"><br>
-    <img src="a.png" alt="screenshot">
-    <h3>hello pakistan</h3>
-    <a href="home.html">click here</a>
-    <a href="me.html">portfolio</a>
+    <header>
+        <div class="profile">
+            <img src="img.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="profile-text">
+                <h1>Aliyan Waseem</h1>
+                <p>Web Designer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Gifted, passionate and creative teacher committed to being a catalyst in the discovery of one’s 
+                potential, calling and passion, which will ultimately affect, equip and empower the present and future generation.
+            </p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Teaching</h3>
+                <p>Jinnah Science Academy,(six month)</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor of Science in Computer Engineering</h3>
+                <p>Information Technology University(ITU), 2023 - 2027</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>Word</li>
+                <li>Excel</li>
+                <li>C++ (OOP)</li>
+                <li>Python (OOP)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: aliyansheikh7e@gmail.com</p>
+            <p>Phone: (+92) 328-4061852</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aliyan Waseem. All rights reserved.</p>
+    </footer>
 </body>
 </html>

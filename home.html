@@ -3,15 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
+    <title>Portfolio/Resume</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 align="center" ><u>HELLO</u></h1>
-    <label for="name">username:</label>
-    <input required type="text" name="username" id="name"><br>
-    <label for="id">password:</label>
-    <input required type="password" id="id"><br>
-    <img src="a.png" alt="screenshot">
-    <h3>hello pakistan</h3>
+    <header>
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="profile-text">
+                <h1>John Doe</h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel mauris quam. Aenean nec velit ac nulla placerat aliquet.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Web Developer</h3>
+                <p>ABC Company, 2018 - Present</p>
+                <p>Developed and maintained company's website and internal tools.</p>
+            </div>
+            <div class="job">
+                <h3>Junior Developer</h3>
+                <p>XYZ Inc., 2015 - 2018</p>
+                <p>Assisted in the development of web applications and maintained existing projects.</p>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p>University of Somewhere, 2011 - 2015</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: john.doe@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
 </body>
 </html>
