@@ -83,6 +83,11 @@ ul {
 }
 
 ul li {
+    list-style-type: disc;
+}
+
+.list
+{
     background: #0ce4e7;
     color: white;
     margin: 5px 0;
