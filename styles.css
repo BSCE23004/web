@@ -4,6 +4,8 @@ body {
     padding: 0;
     color: #333;
     background-color: #f9f9f9;
+    line-height: 20px;
+
 }
 
 header {
@@ -21,7 +23,8 @@ header {
 }
 
 .profile-pic {
-    width: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -62,6 +65,9 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    width: 90%;
+    margin: 50px auto;
+    
 }
 
 section {
@@ -80,6 +86,8 @@ h2 {
 ul {
     list-style: none;
     padding: 0;
+    margin-left: 50px;
+
 }
 
 ul li {
@@ -88,10 +96,10 @@ ul li {
 
 .list
 {
-    background: #0ce4e7;
-    color: white;
-    margin: 5px 0;
-    padding: 10px;
+    /* background: #0ce4e7; */
+    /* color: white; */
+    margin: 5px 50px;
+    /* padding: 10px; */
     border-radius: 4px;
 }
 
